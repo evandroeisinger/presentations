@@ -1,6 +1,21 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "icon/*.png";
 
-@import "compass/reset";
+@include all-icon-sprites; 
+
+/* Icon */
+
+.icon48
+{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	text-indent: -9999px;
+}
+
+.icon64
+{
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	text-indent: -9999px;
+}
