@@ -1,3 +1,3 @@
 ##Presentations
 
-Be pleased to access this Wiki repository and find subjects that may help you.
+Be pleased to access the repository Wiki and find subjects that may help you.
