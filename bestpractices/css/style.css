@@ -1,0 +1,1133 @@
+/*
+	Dopetrope 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	*
+	{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body
+	{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		background: #252122;
+		background-image: url('images/bg02.png');
+		color: #5d5d5d;
+	}
+
+	strong, b
+	{
+		color: #252122;
+		font-weight: 700;
+	}
+	
+	h1, h2, h3, h4, h5, h6
+	{
+		color: #252122;
+		font-weight: 700;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+		{
+			color: inherit;
+			text-decoration: none;
+		}
+
+	a
+	{
+		color: #d52349;
+		text-decoration: underline;
+	}
+	
+		a:hover
+		{
+			text-decoration: none;
+		}
+
+	.major
+	{
+		position: relative;
+		text-align: center;
+		border-top: solid 1px #ccc;
+		top: 1em;
+	}
+
+		.major h2
+		{
+			background: #fff;
+			position: relative;
+			top: -0.65em;
+			display: inline;
+			margin: 0;
+			padding: 0 1em 0 1em;
+		}
+
+	.byline
+	{
+		display: block;
+		font-style: italic;
+	}
+	
+	form
+	{
+	}
+	
+		form input,
+		form select,
+		form textarea
+		{
+			-webkit-appearance: none;
+		}
+			
+	br.clear
+	{
+		clear: both;
+	}
+	
+	p, ul, ol, dl, table
+	{
+		margin-bottom: 2em;
+	}
+	
+	section,
+	article
+	{
+		margin-bottom: 2.5em;
+	}
+	
+		section > :last-child,
+		article > :last-child
+		{
+			margin-bottom: 0;
+		}
+
+		section:last-child,
+		article:last-child
+		{
+			margin-bottom: 0;
+		}
+
+	/* Actions */
+
+		.actions
+		{
+		}
+
+	/* Box */
+
+		.box
+		{
+			background: #ffffff;
+			border-bottom: solid 1px #ccc;
+		}
+		
+			.box .image-full
+			{
+				position: relative;
+				width: auto;
+			}
+
+	/* Button */
+		
+		.button
+		{
+			display: inline-block;
+			text-decoration: none;
+			cursor: pointer;
+			border: 0;
+			border-radius: 5px;
+			background: #d52349;
+			color: #fff !important;
+			font-weight: 700;
+			outline: 0;
+			-moz-transition: background-color .25s ease-in-out;
+			-webkit-transition: background-color .25s ease-in-out;
+			-o-transition: background-color .25s ease-in-out;
+			-ms-transition: background-color .25s ease-in-out;
+			transition: background-color .25s ease-in-out;
+		}
+
+			.button:hover
+			{
+				background: #e53359;
+			}
+			
+			.button:active
+			{
+				background: #c51349;
+			}
+		
+			.button-alt
+			{
+				background: #252122;
+			}
+
+				.button-alt:hover
+				{
+					background: #353132;
+				}
+				
+				.button-alt:active
+				{
+					background: #151112;
+				}
+		
+			.button-icon
+			{
+				line-height: 32px;
+				padding-left: 1em !important;
+			}
+			
+				.button-icon:before
+				{
+					content: '';
+					display: block;
+					float: left;
+					width: 32px;
+					height: 32px;
+					background: url('images/icons32.png');
+					margin-right: 0.45em;
+					opacity: 0.25;
+				}
+				
+				.button-icon-1:before	{ background-position: 0px 0px;		}
+				.button-icon-2:before	{ background-position: -32px 0px;	}
+				.button-icon-3:before	{ background-position: -64px 0px;	}
+				.button-icon-4:before	{ background-position: -96px 0px;	}
+				.button-icon-5:before	{ background-position: -128px 0px;	}
+
+	/* Image */
+
+		.image
+		{
+			display: inline-block;
+			outline: 0;
+		}
+		
+			.image img
+			{
+				display: block;
+				width: 100%;
+			}
+
+		.image-centered
+		{
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image-centered img
+			{
+				margin: 0 auto;
+				width: auto;
+			}
+
+		.image-full
+		{
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+		
+		.image-left
+		{
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+	/* Is-* */
+	
+		.is-post
+		{
+		}
+	
+	/* List */
+
+		ul.contact
+		{
+		}
+
+			ul.contact li
+			{
+				position: relative;
+				border-top: solid 1px #ddd;
+				padding: 1.3em 0 1.3em 7em;
+			}
+
+				ul.contact li h3
+				{
+					position: absolute;
+					left: 0;
+					top: 1.3em;
+					font-size: 1.1em;
+				}
+
+				ul.contact li p
+				{
+					margin: 0;
+				}
+			
+			ul.contact li:first-child
+			{
+				padding-top: 0;
+				border-top: 0;
+			}
+
+				ul.contact li:first-child h3
+				{
+					top: 0;
+				}
+	
+		ul.dates
+		{
+		}
+		
+			ul.dates li
+			{
+				position: relative;
+				border-top: solid 1px #ddd;
+				padding: 1.3em 0 1.3em 6.75em;
+			}
+
+			ul.dates .date
+			{
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 1.3em;
+				background-color: #d52349;
+				height: 3.5em;
+				text-align: center;
+				color: #fff;
+				line-height: 1em;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+				padding: 0.5em 0.75em 0 1em;
+			}
+
+				ul.dates .date:after
+				{
+					content: '';
+					position: absolute;
+					bottom: 0;
+					right: -1.2em;
+					border-left: solid 1.25em #d52349;
+					border-top: solid 1.8em transparent;
+					border-bottom: solid 1.8em transparent;
+				}
+			
+				ul.dates .date strong
+				{
+					display: block;
+					font-size: 1.75em;
+					padding-top: 0.15em;
+				}
+				
+			ul.dates h3
+			{
+				font-size: 1.1em;
+			}
+				
+			ul.dates p
+			{
+				margin: 0;
+			}
+
+			ul.dates li:first-child
+			{
+				border-top: 0;
+				padding-top: 0;
+			}
+			
+				ul.dates li:first-child .date
+				{
+					top: 0;
+				}
+
+		ul.default
+		{
+		}
+		
+		ul.divided
+		{
+		}
+		
+			ul.divided li
+			{
+				border-top: solid 1px #ddd;
+				padding: 1em 0 1em 0;
+			}
+			
+			ul.divided li:first-child
+			{
+				border-top: 0;
+				padding-top: 0;
+			}
+		
+		ul.links
+		{
+		}
+		
+		ul.social
+		{
+			overflow: hidden;
+		}
+
+			ul.social li
+			{
+				display: block;
+				border-radius: 5px;
+				background: #888;
+				-moz-transition: background-color .25s ease-in-out;
+				-webkit-transition: background-color .25s ease-in-out;
+				-o-transition: background-color .25s ease-in-out;
+				-ms-transition: background-color .25s ease-in-out;
+				transition: background-color .25s ease-in-out;
+				float: left;
+			}
+			
+			ul.social li:first-child
+			{
+				margin-left: 0;
+			}
+			
+			ul.social li.facebook				{ background: #3c5a98; }
+				ul.social li.facebook:hover		{ background: #4c6aa8; }
+			ul.social li.twitter				{ background: #2daae4; }
+				ul.social li.twitter:hover		{ background: #3dbaf4; }
+			ul.social li.dribbble				{ background: #c4376b; }
+				ul.social li.dribbble:hover		{ background: #d4477b; }
+			ul.social li.linkedin				{ background: #006599; }
+				ul.social li.linkedin:hover		{ background: #1075a9; }
+			ul.social li.tumblr					{ background: #2b4661; }
+				ul.social li.tumblr:hover		{ background: #3b5671; }
+			ul.social li.googleplus				{ background: #da2713; }
+				ul.social li.googleplus:hover	{ background: #ea3723; }
+
+	/* Pennant */
+
+		.pennant
+		{
+			position: relative;
+			display: inline-block;
+			background-color: #d52349;
+			width: 9em;
+			padding: 1.5em 0 0.5em 0;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+		
+			.pennant:after
+			{
+				content: '';
+				position: absolute;
+				bottom: -1.98em;
+				left: 0;
+				border-top: solid 2em #d52349;
+				border-left: solid 4.5em transparent;
+				border-right: solid 4.5em transparent;
+			}
+		
+			.pennant span
+			{
+				display: block;
+				margin: 0 auto;
+			}
+
+			.pennant-alt
+			{
+				background-color: #252122;
+			}
+			
+				.pennant-alt:after
+				{
+					border-top-color: #252122;
+				}
+
+			.pennant-alt2
+			{
+				background-color: #827a7c;
+			}
+			
+				.pennant-alt2:after
+				{
+					border-top-color: #827a7c;
+				}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+		#banner a
+		{
+			text-decoration: none;
+			outline: 0;
+		}
+
+		#banner header
+		{
+			background-color: #252122;
+			background-color: rgba(34,30,31,0.98);
+			text-align: center;
+		}
+		
+			#banner header h2
+			{
+				color: #fff;
+				font-weight: 700;
+			}
+			
+			#banner header .byline
+			{
+				color: #d52349;
+				padding: 0;
+				font-style: normal;
+			}
+			
+		#banner .image-full
+		{
+			margin: 0;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		background: #ffffff;
+		border-bottom: solid 1px #ccc;
+	}
+
+		#header-wrapper:before
+		{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: url('images/bg02.png');
+			z-index: 0;
+			opacity: 0.5;
+			box-shadow: inset 0px -60px 40px 0px #fff;
+		}
+		
+		#header-wrapper:after
+		{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: url('images/bg01.png');
+			background-size: 100% 100%;
+			z-index: 0;
+			opacity: 0.25;
+		}
+
+		#header-wrapper > .container
+		{
+			position: relative;
+			z-index: 1;
+		}
+	
+	#main-wrapper
+	{
+		position: relative;
+		background: #f7f7f7 url('images/bg02.png');
+	}
+
+		#main-wrapper:before
+		{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: url('images/bg01.png');
+			background-size: 100% 100%;
+			z-index: 0;
+			opacity: 0.1;
+		}
+		
+		#main-wrapper .major
+		{
+		}
+		
+			#main-wrapper .major h2
+			{
+				background: #f7f7f7 url('images/bg02.png');
+			}
+	
+	#footer-wrapper
+	{
+		position: relative;
+		color: #858484;
+	}
+
+		#footer-wrapper:before
+		{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: url('images/bg01.png');
+			background-size: 100% 100%;
+			z-index: 0;
+			opacity: 0.5;
+		}
+	
+		#footer-wrapper a
+		{
+			color: #c5c4c4;
+		}
+		
+		#footer-wrapper h2,
+		#footer-wrapper h3,
+		#footer-wrapper h4,
+		#footer-wrapper h5,
+		#footer-wrapper h6,
+		#footer-wrapper strong,
+		#footer-wrapper b
+		{
+			color: #fff;
+		}
+
+		#footer-wrapper h1 a, 
+		#footer-wrapper h2 a, 
+		#footer-wrapper h3 a, 
+		#footer-wrapper h4 a, 
+		#footer-wrapper h5 a, 
+		#footer-wrapper h6 a
+		{
+			color: inherit;
+		}
+
+		#footer-wrapper ul.contact li
+		{
+			border-top-color: #353434;
+			border-top-color: rgba(255,255,255,0.05);
+		}
+
+		#footer-wrapper ul.dates li
+		{
+			border-top-color: #353434;
+			border-top-color: rgba(255,255,255,0.05);
+		}
+
+		#footer-wrapper ul.divided li
+		{
+			border-top-color: #353434;
+			border-top-color: rgba(255,255,255,0.05);
+		}
+		
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro
+	{
+		text-align: center;
+	}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{	
+		text-align: center;
+	}
+	
+		#copyright .links
+		{
+			display: inline-block;
+			background: #2C2929;
+			background: rgba(255,255,255,0.05);
+			border-radius: 5px;
+			margin: 0;
+		}
+
+/*
+	Dopetrope 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		font-size: 11pt;
+		line-height: 1.75em;
+		min-width: 1200px;
+	}
+	
+	h2
+	{
+		font-size: 1.5em;
+	}
+	
+	h3
+	{
+		font-size: 1.35em;
+	}
+
+	.byline
+	{
+		margin: 0.5em 0 0 0;
+		padding-bottom: 0.5em;
+	}
+	
+	header
+	{
+		margin: 0 0 1.5em 0;
+	}
+	
+	footer
+	{
+		margin: 2.25em 0 0 0;
+	}
+	
+	/* Actions */
+
+		.actions
+		{
+		}
+		
+			.actions .button
+			{
+				margin-right: 0.75em;
+			}
+
+	/* Box */
+
+		.box
+		{
+			padding: 2.75em 1.75em 2.75em 1.75em;
+		}
+		
+			.box .image-full
+			{
+				left: 1.75em;
+				top: 1.75em;
+				margin: -4.5em 0 4.25em -3.5em;
+			}
+
+	/* Button */
+	
+		.button
+		{
+			font-size: 1.1em;
+			padding: 0.65em 1.5em 0.65em 1.5em;
+		}
+
+			.button-big
+			{
+				font-size: 1.5em;
+				padding: 0.75em 1.5em 0.75em 1.5em;
+			}
+
+	/* Is-* */
+	
+		.is-post
+		{
+		}
+		
+			.is-post header
+			{
+				padding-top: 1em;
+				margin: 0 0 2em 0;
+			}
+		
+			.is-post h2
+			{
+				font-size: 2.5em;
+				letter-spacing: -0.015em;
+			}
+			
+			.is-post .byline
+			{
+				margin-top: 1.25em;
+				font-size: 1.25em;
+			}
+
+	/* List */
+
+		ul.links
+		{
+		}
+
+			ul.links li
+			{
+				display: inline-block;
+				border-left: solid 1px rgba(255,255,255,0.05);
+				padding: 0 0 0 1em;
+				margin: 0 0 0 1em;
+			}
+			
+			ul.links li:first-child
+			{
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+			}
+
+		ul.social
+		{
+			margin: 0 0 3.25em 0;
+		}
+
+			ul.social li
+			{
+				margin-left: 0.75em;
+			}
+
+	/* Pennant */
+
+		.pennant
+		{
+			margin: 0 0 4em 0;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		padding: 6em 0 6em 0;
+	}
+
+		#header-wrapper:before
+		{
+			height: 10em;
+		}
+	
+		#header-wrapper:after
+		{
+			height: 20em;
+			top: -2.5em;
+		}
+	
+	#main-wrapper
+	{
+		padding: 6em 0 6em 0;
+	}
+
+		#main-wrapper:after
+		{
+			height: 5em;
+		}
+	
+	#footer-wrapper
+	{
+		padding: 6em 0 6em 0;
+	}
+
+		#footer-wrapper:before
+		{
+			height: 5em;
+		}
+
+		#footer-wrapper header
+		{
+			margin: 0 0 3em 0;
+		}
+		
+			#footer-wrapper header h2
+			{
+				font-size: 1.75em;
+			}
+			
+		#footer-wrapper .row
+		{
+			padding-bottom: 2em;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		text-align: center;
+	}
+	
+		#header h1
+		{
+			color: #252122;
+			font-weight: 900;
+			font-size: 2.5em;
+			letter-spacing: -0.035em;
+			margin: 0 0 1.5em 0;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul
+		{
+			margin: 0;
+		}
+
+		#nav > ul > li > ul
+		{
+			display: none;
+		}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+			font-style: italic;
+			margin: 0 0.35em 0 0.35em;
+		}
+		
+			#nav > ul > li > a
+			{
+				border-radius: 5px;
+				color: #5d5d5d;
+				text-decoration: none;
+				padding: 0.6em 1.2em 0.6em 1.2em;
+				-moz-transition: background-color .25s ease-in-out;
+				-webkit-transition: background-color .25s ease-in-out;
+				-o-transition: background-color .25s ease-in-out;
+				-ms-transition: background-color .25s ease-in-out;
+				transition: background-color .25s ease-in-out;
+				outline: 0;
+			}
+
+		#nav > ul > li:hover
+		{
+		}
+		
+			#nav > ul > li:hover > a
+			{
+				background: #f3f3f3;
+			}
+			
+		#nav > ul > li.active
+		{
+		}
+		
+			#nav > ul > li.active > a
+			{
+				background: #f3f3f3;
+			}
+			
+		#nav > ul > li.current_page_item
+		{
+		}
+		
+			#nav > ul > li.current_page_item > a
+			{
+				background: #d52349;
+				color: #fff !important;
+				font-weight: 700;
+			}
+			
+	.dropotron
+	{
+		border-radius: 5px;
+		background-color: #252122;
+		background-color: rgba(34,30,31,0.98);
+		padding: 1.25em 1.5em 1.25em 1.5em;
+		font-style: italic;
+		min-width: 13em;
+		box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.5);
+		text-align: left;
+	}
+	
+		.dropotron a,
+		.dropotron span
+		{
+			color: #aaa;
+			text-decoration: none;
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+			-o-transition: color .25s ease-in-out;
+			-ms-transition: color .25s ease-in-out;
+			transition: color .25s ease-in-out;
+		}
+		
+		.dropotron li
+		{
+			padding: 0.25em 0 0.25em 0;
+		}
+
+			.dropotron li:hover > a,
+			.dropotron li:hover >span
+			{
+				color: #fff;
+			}
+
+		.dropotron-level-0
+		{
+			margin-top: 2em;
+			margin-left: -0.51em;
+		}
+		
+			.dropotron-level-0:before
+			{
+				content: '';
+				display: block;
+				position: absolute;
+				left: 20px;
+				top: -10px;
+				border-left: solid 10px transparent;
+				border-right: solid 10px transparent;
+				border-bottom: solid 10px #252122;
+				border-bottom-color: rgba(34,30,31,0.98);
+			}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		margin-top: 1em;
+	}
+	
+		#banner header
+		{
+			border-radius: 5px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			padding: 4em;
+			left: 50%;
+			top: 50%;
+
+			/*
+				To vertically center this we need to set a width/height for the header
+				overlay, then set a negative left/top margin set to half its width/height.
+			*/
+			
+			width: 50em;
+			height: 13em;
+			
+			margin-left: -25em;
+			margin-top: -6.5em;
+		}
+		
+			#banner header h2
+			{
+				font-size: 3em;
+				margin: 0 0 0.65em 0;
+				/*line-height: 1.1em;*/
+			}
+
+			#banner header .byline
+			{
+				font-size: 1.75em;
+			}
+			
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro
+	{
+		padding: 3em 0 0 0;
+	}
+	
+		#intro section
+		{
+			padding: 2em 0 2em 0;
+		}
+
+		#intro h2
+		{
+			font-size: 1.75em;
+		}
+		
+		#intro p
+		{
+			font-size: 1.25em;
+			margin: 0;
+		}
+	
+		#intro .middle
+		{
+			box-shadow:	16px 0px 0px 0px #fff,
+						17px 0px 0px 0px #ccc, 
+						
+						-16px 0px 0px 0px #fff, 
+						-17px 0px 0px 0px #ccc, 
+						
+						-16px -45px 0px 0px #fff, 
+						16px -45px 0px 0px #fff, 
+
+						-16px 45px 0px 0px #fff, 
+						16px 45px 0px 0px #fff, 
+
+						-16px 0px 45px 0px rgba(0,0,0,0.15),
+						16px 0px 45px 0px rgba(0,0,0,0.15);
+		}
+		
+		#intro .actions
+		{
+			padding: 5em 0 0 0;
+		}
+		
+			#intro .actions .button
+			{
+				width: 12em;
+				margin: 0 0.5em 0 0.5em;
+			}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+		
+	#copyright
+	{
+		margin: 3em 0 2em 0;
+	}
+	
+		#copyright .links
+		{
+			padding: 0.85em 2.25em 0.85em 2.25em;
+		}
