@@ -334,11 +334,11 @@ article:last-child {
   text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   background: #61b8db;
-  background-image: -moz-linear-gradient(top, rgba(97, 184, 219, 0), #308dc4);
-  background-image: -webkit-linear-gradient(top, rgba(97, 184, 219, 0), #308dc4);
+  background-image: -moz-linear-gradient(top, rgba(255, 194, 0, 0.96), #eb7101);
+  background-image: -webkit-linear-gradient(top, rgba(255, 194, 0, 0.96), #eb7101);
   background-image: -o-linear-gradient(top, rgba(97, 184, 219, 0), #308dc4);
-  background-image: -ms-linear-gradient(top, rgba(97, 184, 219, 0), #308dc4);
-  background-image: linear-gradient(top, rgba(97, 184, 219, 0), #308dc4);
+  background-image: -ms-linear-gradient(top, rgba(255, 194, 0, 0.96), #eb7101);
+  background-image: linear-gradient(top, rgba(255, 194, 0, 0.96), #eb7101);
   box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
   -moz-transition: background-color .2s ease-in-out;
   -webkit-transition: background-color .2s ease-in-out;
@@ -1499,7 +1499,6 @@ ul.social li a span {
 /* Articles                                                                      */
 /*********************************************************************************/
 #top .me {
-  border-radius: 50%;
   overflow: hidden; }
 
 #top p a {
@@ -1626,7 +1625,7 @@ form .button {
 
 #top .me {
   width: 20em;
-  height: 20em;
+  height: 24em;
   margin: 0; }
 
 #top h1 {
