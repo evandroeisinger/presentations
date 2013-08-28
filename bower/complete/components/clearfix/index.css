@@ -1,0 +1,11 @@
+/* Solve CSS float problem */
+
+.clearfix { 
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after  {
+    clear: both;
+    content: " ";
+    display: block;
+}

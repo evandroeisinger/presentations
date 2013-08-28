@@ -1,0 +1,29 @@
+{
+  "name": "Introduction to Bower.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/evandroeisinger/presentations/tree/master/bower",
+  "authors": [
+    "Evandro Eisinger"
+  ],
+  "description": "A simple introduction to Bower.js",
+  "main": "index.html",
+  "keywords": [
+    "Bower.js",
+    "Introduction"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "normalize-css": "~2.1.3",
+    "modernizr": "~2.6.2",
+    "clearfix": "https://gist.github.com/evandroeisinger/5109264/raw/1223c63fc691822c75ed9071acfff8a6d2f640b8/clearfix.css",
+    "handlebars": "~1.0.0"
+  }
+}

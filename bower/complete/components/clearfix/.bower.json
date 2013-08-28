@@ -1,0 +1,13 @@
+{
+  "name": "clearfix",
+  "_cacheHeaders": {
+    "ETag": "\"75cfd12b8630e0dd86b9cbd01eac76e6\"",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Disposition": "inline"
+  },
+  "_release": "e-tag:75cfd12b8",
+  "main": "index.css",
+  "_source": "https://gist.github.com/evandroeisinger/5109264/raw/1223c63fc691822c75ed9071acfff8a6d2f640b8/clearfix.css",
+  "_target": "*",
+  "_originalSource": "https://gist.github.com/evandroeisinger/5109264/raw/1223c63fc691822c75ed9071acfff8a6d2f640b8/clearfix.css"
+}
