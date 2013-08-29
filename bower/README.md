@@ -68,7 +68,7 @@ Neste exato momento, já temos o Bower configurado no projeto. Podemos visualiza
         "directory" : "components"
     } 
 
-Agora, com o arquivo `.browerrc` criado, podemos seguir adiante, mas antes de instalarmos os componentes, iremos abordar mais uma de suas funcionalidades, a busca por componentes.
+Agora, com o arquivo `.bowerrc` criado, podemos seguir adiante, mas antes de instalarmos os componentes, iremos abordar mais uma de suas funcionalidades, a busca por componentes.
 
 ### Buscando componentes
 
