@@ -30,7 +30,7 @@ Pronto, o Bower foi instalado! Só nos resta utilizarmos em um projeto.
 
 ### Iniciando um projeto Bower
 
-Agora que temos o Bower instalado em nosso ambiente, podemos inseri-lo em nossos projetos. Neste exato momento, todo aquele esforço que temos de buscar componentes, baixa-los e inseri-los em um projeto, começa a se distanciar. **Obs:** Todo a material trabalhado nesta introdução ao Bower, está disponível [aqui](https://github.com/evandroeisinger/presentations/tree/master/bower). A pasta `complete` é um projeto já gerenciado pelo Bower, a pasta `todo` é um projeto para implantarmos o Bower e a pasta `test` para testarmos o carregamento das dependências de um projeto pelo Bower.
+Agora que temos o Bower instalado em nosso ambiente, podemos inseri-lo em nossos projetos. Neste exato momento, todo aquele esforço que temos de buscar componentes, baixa-los e inseri-los em um projeto, começa a se distanciar. Todo a material trabalhado nesta introdução ao Bower, está disponível [aqui](https://github.com/evandroeisinger/presentations/tree/master/bower). A pasta `complete` é um projeto já gerenciado pelo Bower, a pasta `todo` é um projeto para implantarmos o Bower e a pasta `test` para testarmos o carregamento das dependências de um projeto pelo Bower.
 
 Para inserir o Bower em um projeto, basta executamos o seguinte comando na pasta raiz do mesmo: **Obs:** Utilize o projeto `todo` para testar esta funcionalidade.
 
